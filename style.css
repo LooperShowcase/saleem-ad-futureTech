@@ -1,0 +1,90 @@
+body {
+  background-color: skyblue;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#input-text {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#submit-button {
+  background-color: lightgreen;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+#submit-button:hover {
+  background-color: darkgreen;
+}
+
+#webcam-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#label-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+button {
+  background-color: lightgreen;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
